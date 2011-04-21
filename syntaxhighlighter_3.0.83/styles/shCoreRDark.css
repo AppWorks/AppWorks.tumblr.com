@@ -58,6 +58,8 @@
   position: relative !important;
   overflow: auto !important;
   font-size: 1em !important;
+  padding:7px 0;
+  border:3px solid black;
 }
 .syntaxhighlighter.source {
   overflow: hidden !important;
@@ -226,13 +228,14 @@
 }
 
 .syntaxhighlighter {
-  background-color: #1b2426 !important;
+  /*background-color: #1b2426 !important;*/
+  background-color: #272727 !important;
 }
 .syntaxhighlighter .line.alt1 {
-  background-color: #1b2426 !important;
+  background-color: #272727 !important;
 }
 .syntaxhighlighter .line.alt2 {
-  background-color: #1b2426 !important;
+  background-color: #272727 !important;
 }
 .syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
   background-color: #323e41 !important;
